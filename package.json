@@ -1,4 +1,10 @@
 {
     "name": "covid-tracker-backend",
-    "version": "1.0.0"
-  }
+    "version": "1.0.0",
+    "dependencies": {
+        "heroku": "^7.59.2"
+    },
+     "scripts": {
+        "start": "node server.js"
+      }
+}
